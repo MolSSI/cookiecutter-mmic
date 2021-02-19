@@ -18,15 +18,19 @@ except IndexError:
 print("Options: open_source_license=%s, ci_provider=%s, rtd=%s" % (lic, provider, rtd))
 
 # Setup the options
-options = [project,  # Repo name
-           project,  # Project name
-           project,  # First module name
-           "cookie monster",  # Author name
-           "cookiemonster@trash.can",  # Author email
-           "",  # Description
-           lic,  # License
-           provider,  # ci_provider
-           rtd] 
+options = [
+    project,  # Repo name
+    project,  # Project name
+    project,  # First module name
+    "some_code",  # MM code name
+    "Model",  # model name
+    "cookie monster",  # Author name
+    "cookiemonster@trash.can",  # Author email
+    "",  # Description
+    lic,  # License
+    provider,  # ci_provider
+    rtd,
+]
 
 # Open a thread
 p = Popen(["cookiecutter", cookie_path], stdin=PIPE, stdout=PIPE)

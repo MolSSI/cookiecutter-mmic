@@ -13,7 +13,7 @@ def parse_yaml(filename, key):
     """
 
     with open(filename, "r") as infile:
-        ret = yaml.load(infile) 
+        ret = yaml.load(infile)
 
     return ret[key]
 
@@ -22,8 +22,8 @@ def gen_commands(name, commands):
     """
     Runs YAML commands and prints their output
     """
-  
-    print("Generating bash file to run the following:") 
+
+    print("Generating bash file to run the following:")
     ret = []
     for command in commands:
         command = " ".join([os.path.expandvars(x) for x in command.split()])
@@ -33,7 +33,7 @@ def gen_commands(name, commands):
     ret = "\n".join(ret)
     with open(name, "w") as ofile:
         ofile.write(ret)
-    
+
 
 if __name__ == "__main__":
     filename = sys.argv[1]

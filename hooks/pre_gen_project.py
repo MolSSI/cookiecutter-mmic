@@ -7,13 +7,13 @@ If any error is raised, the cookie cutter creation fails and crashes
 import re
 import sys
 
-MODULE_REGEX = r'^[_a-zA-Z][_a-zA-Z0-9]+$'
-EMAIL_REGEX = r'[^@]+@[^@]+\.[^@]+'
+MODULE_REGEX = r"^[_a-zA-Z][_a-zA-Z0-9]+$"
+EMAIL_REGEX = r"[^@]+@[^@]+\.[^@]+"
 
-repo_name = '{{ cookiecutter.repo_name }}'
-module_name = '{{ cookiecutter.first_module_name }}'
+repo_name = "{{ cookiecutter.repo_name }}"
+module_name = "{{ cookiecutter.first_module_name }}"
 
-author_email = '{{ cookiecutter.author_email }}'
+author_email = "{{ cookiecutter.author_email }}"
 
 for key in [repo_name, module_name]:
     if not re.match(MODULE_REGEX, key):
