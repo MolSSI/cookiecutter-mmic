@@ -10,6 +10,7 @@ project = sys.argv[1]
 lic = sys.argv[2]
 provider = sys.argv[3]
 rtd = sys.argv[4]
+
 try:
     cookie_path = abspath(sys.argv[5])
 except IndexError:
