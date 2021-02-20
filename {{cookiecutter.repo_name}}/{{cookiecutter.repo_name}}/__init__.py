@@ -17,7 +17,7 @@ del get_versions, versions
 
 
 # The molecule file extensions supported by
-# the reader and writers in {{cookiercutter.repo_name}}
+# the reader and writers in {{cookiecutter.repo_name}}
 molread_ext_maps = {
     ".ext1": "ext1",
     ".ext2": "ext2",
@@ -35,7 +35,7 @@ molwrite_ext_maps = {
 }
 
 # The trajectory file extensions supported by
-# the reader and writers in {{cookiercutter.repo_name}}
+# the reader and writers in {{cookiecutter.repo_name}}
 trajread_ext_maps = {
     ".ext1": "ext1",
     ".ext2": "ext2",
@@ -53,7 +53,7 @@ trajwrite_ext_maps = {
 }
 
 # The force field file extensions supported by
-# the readers and writers in {{cookiercutter.repo_name}}
+# the readers and writers in {{cookiecutter.repo_name}}
 ffread_ext_maps = {
     ".ext1": "ext1",
     ".ext2": "ext2",
