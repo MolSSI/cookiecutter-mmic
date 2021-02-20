@@ -1,7 +1,6 @@
 # Cookiecutter for Computational Molecular Sciences (CMS) Python Packages
 [//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/Andrew-AbiMansour/cookiecutter-mmic/workflows/Pseudo%20Validate%20GHA%20Output/badge.svg)](https://github.com/Andrew-AbiMansour/cookiecutter-mmic/actions?query=workflow%3A%22Pseudo+Validate+GHA+Output%22)
-
+[![GitHub Actions Build Status](https://github.com/Andrew-AbiMansour/cookiecutter-mmschema/workflows/Pseudo%20Validate%20GHA%20Output/badge.svg)](https://github.com/Andrew-AbiMansour/cookiecutter-mmschema/actions?query=workflow%3A%22Pseudo+Validate+GHA+Output%22)
 
 A [cookiecutter](https://github.com/audreyr/cookiecutter) template for MMSChema translators
 written in Python. Based on the CMS cookiecutter. 
