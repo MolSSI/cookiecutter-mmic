@@ -1,6 +1,5 @@
 """ Populate this file if your translator enables trajectory conversion """
 
-from pydantic import Field, validator
 from typing import Dict, Any, Optional
 from mmelemental.models.base import ToolkitModel
 from mmelemental.models.molecule import Molecule
@@ -22,8 +21,7 @@ class {{cookiecutter.model_name}}Traj(ToolkitModel):
 
         raise NotImplementedError
 
-    @validator("data")
-    def valid_traj(cls, data):
+    def isvalid(cls, data):
         """ Validates the data object stored in ToolkitModel. """
         raise NotImplementedError
 

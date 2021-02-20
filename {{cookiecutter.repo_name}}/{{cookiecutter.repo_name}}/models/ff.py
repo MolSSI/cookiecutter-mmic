@@ -1,6 +1,5 @@
 """ Populate this file if your translator enables force field conversion """
 
-from pydantic import Field, validator
 from typing import Dict, Any, Optional
 from mmelemental.models.base import ToolkitModel
 from mmelemental.models.forcefield import ForceField
@@ -21,8 +20,7 @@ class {{cookiecutter.model_name}}FF(ToolkitModel):
 
         raise NotImplementedError
 
-    @validator("data")
-    def valid_ff(cls, data):
+    def isvalid(cls, data):
         """ Validates the data object stored in ToolkitModel. """
         raise NotImplementedError
 

@@ -1,6 +1,5 @@
 """ Populate this file if your translator enables molecule conversion """
 
-from pydantic import Field, validator
 from typing import Dict, Any, Optional
 from mmelemental.models.base import ToolkitModel
 from mmelemental.models.molecule import Molecule
@@ -21,8 +20,8 @@ class {{cookiecutter.model_name}}Mol(ToolkitModel):
 
         raise NotImplementedError
 
-    @validator("data")
-    def valid_mol(cls, data):
+    @classmethod
+    def isvalid(cls, data):
         """ Validates the data object stored in ToolkitModel. """
         raise NotImplementedError
 
