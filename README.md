@@ -1,4 +1,4 @@
-# Cookiecutter for Computational Molecular Sciences (CMS) Python Packages
+# Cookiecutter for MMElemental/MMSchema translators in Python
 [//]: # (Badges)
 [![Pseudo Validate GHA Output](https://github.com/Andrew-AbiMansour/cookiecutter-mmschema/actions/workflows/verify-ghas.yaml/badge.svg)](https://github.com/Andrew-AbiMansour/cookiecutter-mmschema/actions/workflows/verify-ghas.yaml)
 
