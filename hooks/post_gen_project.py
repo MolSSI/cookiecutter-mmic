@@ -52,7 +52,7 @@ def git_init_and_tag():
         invoke_shell("git add .")
         invoke_shell(
             'git commit -m "Initial commit after CMS Cookiecutter creation, version {}"'.format(
-                "{{ cookiecutter._mmschema_cc_version }}"
+                "{{ cookiecutter._mmic_cc_version }}"
             )
         )
 

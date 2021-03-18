@@ -1,6 +1,6 @@
-# Cookiecutter for MMElemental/MMSchema translators in Python
+# Cookiecutter for MMIC in Python
 [//]: # (Badges)
-[![Pseudo Validate GHA Output](https://github.com/Andrew-AbiMansour/cookiecutter-mmschema/actions/workflows/verify-ghas.yaml/badge.svg)](https://github.com/Andrew-AbiMansour/cookiecutter-mmschema/actions/workflows/verify-ghas.yaml)
+[![Pseudo Validate GHA Output](https://github.com/Andrew-AbiMansour/cookiecutter-mmic/actions/workflows/verify-ghas.yaml/badge.svg)](https://github.com/Andrew-AbiMansour/cookiecutter-mmic/actions/workflows/verify-ghas.yaml)
 
 A [cookiecutter](https://github.com/audreyr/cookiecutter) template for MMSChema translators
 written in Python. Based on the CMS cookiecutter. 
@@ -34,7 +34,7 @@ With [`cookiecutter` installed](https://cookiecutter.readthedocs.io/en/latest/in
 execute the following command inside the folder you want to create the skeletal repository.
 
 ```bash
-cookiecutter gh:andrew-abimansour/cookiecutter-mmschema
+cookiecutter gh:andrew-abimansour/cookiecutter-mmic
 ```
 
 Which fetches this repository from github automatically and prompts the user for some simple information such as

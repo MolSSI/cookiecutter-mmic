@@ -1,3 +1,1 @@
-from .mol import *
-from .traj import *
-from .ff import *
+from .model import *
