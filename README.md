@@ -2,7 +2,7 @@
 [//]: # (Badges)
 [![Pseudo Validate GHA Output](https://github.com/Andrew-AbiMansour/cookiecutter-mmic/actions/workflows/verify-ghas.yaml/badge.svg)](https://github.com/Andrew-AbiMansour/cookiecutter-mmic/actions/workflows/verify-ghas.yaml)
 
-A [cookiecutter](https://github.com/audreyr/cookiecutter) template for MMSChema translators
+A [cookiecutter](https://github.com/audreyr/cookiecutter) template for MMIC
 written in Python. Based on the CMS cookiecutter. 
 
 The skeletal structure is designed to help you get started, but do not feel limited by the skeleton's features
@@ -43,7 +43,7 @@ package name, author(s), and licences.
 
 ## Acknowledgments
 
-The MMSchema cookitercutter is based on the CMS cookiecutter developed by Levi N. Naden and Jessica A. Nash
+This cookiecutter is based on the CMS cookiecutter developed by Levi N. Naden and Jessica A. Nash
 from the [Molecular Sciences Software Institute (MolSSI)](http://molssi.org/); and
 Daniel G. A. Smith of [ENTOS](https://www.entos.ai/). Copyright (c) 2021.
 
